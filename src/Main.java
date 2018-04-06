@@ -28,19 +28,19 @@ public class Main {
         }
         System.out.println(liste3);
 
-        for(int i=1;i<10;i++){
+        for(int i=0;i<9;i++){
             int k=i;
-            for(int j=2;j<10;j++){
+            for(int j=i+1;j<10;j++){
                 if(liste.get(j).getAnneePublication().compareTo(liste.get(k).getAnneePublication())<0){
                     k=j;
                 }
-                else {
+                if(k!=i){
                     Livre tempo=liste.get(i);
                     liste.set(i,liste.get(k));
                     liste.set(k,tempo);
                 }
+                }
             }
-        }
         System.out.println(liste);
 
 

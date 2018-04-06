@@ -66,7 +66,7 @@ public class Livre implements Comparable<Livre> {
     "Gerald Ford","L'Homme"};
     String[] maisonsEdition={"La plume","La pile","La file","La queueleuleu","Le petit escabeau","La meche courte",
     "La bonne femme","Pape edition","Le Quotidien","La derniere"};
-    String[] anneesPublication={"1989","1543","2012","1689","1989","2011","2000","1325","2003","1991"};
+    String[] anneesPublication={"1989","1543","2012","1124","1989","2011","2000","1325","2003","1991"};
 
     public Livre() {
         this.isbn = iSBNs[(int)(Math.random()*9)+1];
