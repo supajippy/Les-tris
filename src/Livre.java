@@ -49,12 +49,12 @@ public class Livre implements Comparable<Livre> {
         this.anneePublication = anneePublication;
     }
 
-    String isbn;
-    String titre;
-    String soustitre;
-    String auteur;
-    String maisonEdition;
-    String anneePublication;
+    private String isbn;
+    private String titre;
+    private String soustitre;
+    private String auteur;
+    private String maisonEdition;
+    private String anneePublication;
 
 
     String [] iSBNs={"6546546543","3653169833","3652345987","2312654985","3216523240","1322648598","1323654820","2652032514",
